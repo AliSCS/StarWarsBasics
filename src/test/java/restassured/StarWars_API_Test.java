@@ -20,7 +20,7 @@ import static org.hamcrest.Matchers.*;
 /**
  * Created by Ali Al-Marsumi Local on 13/09/2017.
  */
-public class StarWars_API {
+public class StarWars_API_Test {
 
     @Before
     public void setup(){
@@ -30,6 +30,7 @@ public class StarWars_API {
 
     @Test
     public void canGetName(){
+        //get and assert lukes name
         expect().body("name",equalTo("Luke Skywalker")).when().get("http://swapi.co/api/people/1/");
 
     }
