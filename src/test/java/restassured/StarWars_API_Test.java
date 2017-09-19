@@ -37,7 +37,7 @@ public class StarWars_API_Test {
 
     @Test
     public void canGetFilms(){
-        // get and assert 
+        // get and assert
         RestAssured.get("people/1/").then().assertThat().body("films[0]", equalTo("http://swapi.co/api/films/2/"));
     }
 
