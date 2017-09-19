@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1039a747-3488-4604-a9da-3eeac970473a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java" afterPath="$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java" />
-    </list>
+    <list default="true" id="1039a747-3488-4604-a9da-3eeac970473a" name="Default" comment="" />
     <ignored path="StarWars.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
