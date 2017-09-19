@@ -30,6 +30,7 @@ public class StarWars_API_Test {
 
     @Test
     public void canGetName(){
+        //get and assert lukes name
         expect().body("name",equalTo("Luke Skywalker")).when().get("http://swapi.co/api/people/1/");
 
     }
