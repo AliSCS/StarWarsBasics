@@ -1,1 +1,4 @@
+guitests\CukeRunnerTest.class
 restassured\StarWars_API_Test.class
+guitests\AbstractDriver.class
+guitests\SimpleTest.class
