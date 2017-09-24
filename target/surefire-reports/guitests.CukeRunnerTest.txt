@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: guitests.CukeRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 9.759 sec
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 5.773 sec
