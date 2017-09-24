@@ -3,6 +3,7 @@ package guitests;
 import org.apache.commons.lang3.ObjectUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 /**
@@ -14,9 +15,10 @@ public class AbstractDriver {
 
     protected WebDriver getDriver(){
         if(driver == null){
-            System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Google\\chromedriver\\chromedriver.exe");
-            driver = new ChromeDriver();
-//            driver = new HtmlUnitDriver();
+//            System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Google\\chromedriver\\chromedriver.exe");
+//            driver = new ChromeDriver();
+            driver = new HtmlUnitDriver();
+//            driver = new FirefoxDriver();
         }
         return driver;
     }
