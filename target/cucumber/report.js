@@ -38,21 +38,21 @@ formatter.match({
   "location": "SimpleTest.i_navigate_to_the_website()"
 });
 formatter.result({
-  "duration": 3142682668,
+  "duration": 3633779576,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleTest.i_populate_the_search_criteria()"
 });
 formatter.result({
-  "duration": 628304698,
+  "duration": 600969079,
   "status": "passed"
 });
 formatter.match({
   "location": "SimpleTest.submit_the_search()"
 });
 formatter.result({
-  "duration": 1188362720,
+  "duration": 1385906494,
   "status": "passed"
 });
 formatter.match({});
@@ -60,7 +60,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.after({
-  "duration": 3032223,
+  "duration": 2653053,
   "status": "passed"
 });
 });

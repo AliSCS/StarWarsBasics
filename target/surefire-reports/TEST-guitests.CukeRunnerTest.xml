@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="guitests.CukeRunnerTest" time="5.773" errors="0" skipped="2">
+<testsuite tests="6" failures="0" name="guitests.CukeRunnerTest" time="6.385" errors="0" skipped="2">
   <properties>
     <property name="idea.version" value="2016.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7537"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,13 +63,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: dummy scenario" name="Given I navigate to the website" time="0"/>
+  <testcase classname="Scenario: dummy scenario" name="Given I navigate to the website" time="0.001"/>
   <testcase classname="Scenario: dummy scenario" name="When I populate the search criteria" time="0"/>
   <testcase classname="Scenario: dummy scenario" name="And submit the search" time="0"/>
   <testcase classname="Scenario: dummy scenario" name="Then I am on the result" time="0.003">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="0.006">
+  <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="0.007">
     <skipped/>
   </testcase>
   <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="0.007"/>
