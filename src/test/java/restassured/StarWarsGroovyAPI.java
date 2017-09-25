@@ -2,6 +2,7 @@ package restassured;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import io.restassured.RestAssured;
 import org.junit.Assert;
 import org.junit.Test;
 
