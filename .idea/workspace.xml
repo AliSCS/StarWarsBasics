@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1039a747-3488-4604-a9da-3eeac970473a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-guitests.CukeRunnerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/guitests.CukeRunnerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/guitests/CukeRunnerTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/restassured/StarWarsAPITestJsonPath.class" afterPath="$PROJECT_DIR$/target/test-classes/restassured/StarWarsAPITestJsonPath.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.StarWarsAPITestJsonPathTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.StarWarsGroovyAPITest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.StarWars_API_Test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.StarWarsGroovyAPITest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.StarWars_API_Test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/guitests/CukeRunner.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/guitests/AbstractDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/guitests/AbstractDriver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPath.java" afterPath="$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPI.java" afterPath="$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber/report.js" afterPath="$PROJECT_DIR$/target/cucumber/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.StarWars_API_Test.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-restassured.StarWars_API_Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.StarWars_API_Test.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/restassured.StarWars_API_Test.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/guitests/CukeRunnerTest.java" afterPath="$PROJECT_DIR$/src/test/java/guitests/CukeRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/restassured.StarWarsAPITestJsonPathTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/restassured.StarWarsAPITestJsonPathTest.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/guitests/CukeRunner.java" afterPath="$PROJECT_DIR$/src/test/java/guitests/CukeRunnerTest.java" />
     </list>
     <ignored path="StarWars.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,21 +36,20 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/guitests/SimpleTest.java">
+      <file leaf-file-name="AbstractDriver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/guitests/AbstractDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <element signature="e#958#959#0" expanded="false" />
-                <element signature="e#988#989#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,30 +58,36 @@
       <file leaf-file-name="StarWars_API_Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+              <folding>
+                <element signature="e#619#620#0" expanded="false" />
+                <element signature="e#678#679#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StarWarsGroovyAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPI.java">
+      <file leaf-file-name="StarWarsGroovyAPITest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#StarWarsGroovyAPITest#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StarWarsAPITestJsonPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPath.java">
+      <file leaf-file-name="StarWarsAPITestJsonPathTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPathTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="170">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#523#524#0" expanded="false" />
+                <element signature="e#584#585#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -115,10 +119,11 @@
         <option value="$PROJECT_DIR$/src/test/java/guitests/CukeRunnerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/guitests/SimpleTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/guitests/AbstractDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPath.java" />
         <option value="$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPITest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/guitests/AbstractDriver.java" />
       </list>
     </option>
   </component>
@@ -158,10 +163,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-1374" />
+    <option name="y" value="304" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -188,6 +193,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,20 +211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="StarWars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StarWars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StarWars" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,17 +304,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.StarWarsAPITestJsonPath">
+  <component name="RunManager" selected="JUnit.CukeRunnerTest">
     <configuration default="false" name="StarWars_API_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -347,7 +341,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="StarWarsGroovyAPI.getLukeFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StarWarsGroovyAPITest.getLukeFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="restassured.*" />
@@ -358,34 +352,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="restassured" />
-      <option name="MAIN_CLASS_NAME" value="restassured.StarWarsGroovyAPI" />
+      <option name="MAIN_CLASS_NAME" value="restassured.StarWarsGroovyAPITest" />
       <option name="METHOD_NAME" value="getLukeFilms" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StarWars_API_Test.canGetFilms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="restassured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StarWars" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="restassured" />
-      <option name="MAIN_CLASS_NAME" value="restassured.StarWars_API_Test" />
-      <option name="METHOD_NAME" value="canGetFilms" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -425,7 +393,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="StarWarsAPITestJsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StarWarsAPITestJsonPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="restassured.*" />
@@ -436,7 +404,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="restassured" />
-      <option name="MAIN_CLASS_NAME" value="restassured.StarWarsAPITestJsonPath" />
+      <option name="MAIN_CLASS_NAME" value="restassured.StarWarsAPITestJsonPathTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CukeRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="guitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StarWars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="guitests" />
+      <option name="MAIN_CLASS_NAME" value="guitests.CukeRunnerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -719,18 +713,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StarWarsGroovyAPI.getLukeFilms" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test.canGetFilms" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test.canGetName" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StarWarsAPITestJsonPath" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StarWarsGroovyAPITest.getLukeFilms" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test.canGetName" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StarWarsAPITestJsonPathTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CukeRunnerTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StarWarsAPITestJsonPath" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test.canGetName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test.canGetFilms" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StarWarsGroovyAPI.getLukeFilms" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CukeRunnerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StarWarsGroovyAPITest.getLukeFilms" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StarWarsAPITestJsonPathTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StarWars_API_Test.canGetName" />
       </list>
     </recent_temporary>
   </component>
@@ -748,40 +742,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StarWarsAPITestJsonPath - 2017.09.25 at 13h 50m 07s.xml">
-      <configuration name="StarWarsAPITestJsonPath" configurationId="JUnit" />
+    <history-entry file="CukeRunner - 2017.09.28 at 12h 48m 19s.xml">
+      <configuration name="CukeRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWarsGroovyAPI_getLukeFilms - 2017.09.25 at 13h 33m 19s.xml">
-      <configuration name="StarWarsGroovyAPI.getLukeFilms" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 01m 37s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWarsGroovyAPI_getLukeFilms - 2017.09.25 at 13h 33m 35s.xml">
-      <configuration name="StarWarsGroovyAPI.getLukeFilms" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 07m 16s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWarsGroovyAPI_getLukeFilms - 2017.09.25 at 13h 34m 14s.xml">
-      <configuration name="StarWarsGroovyAPI.getLukeFilms" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 19m 01s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWarsGroovyAPI_getLukeFilms - 2017.09.25 at 13h 34m 53s.xml">
-      <configuration name="StarWarsGroovyAPI.getLukeFilms" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 24m 23s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWarsGroovyAPI_getLukeFilms - 2017.09.25 at 13h 42m 17s.xml">
-      <configuration name="StarWarsGroovyAPI.getLukeFilms" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 25m 49s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWars_API_Test - 2017.09.25 at 13h 48m 47s.xml">
-      <configuration name="StarWars_API_Test" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 30m 04s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWars_API_Test - 2017.09.25 at 13h 49m 53s.xml">
-      <configuration name="StarWars_API_Test" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 31m 44s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWars_API_Test_canGetFilms - 2017.09.25 at 13h 46m 12s.xml">
-      <configuration name="StarWars_API_Test.canGetFilms" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 33m 23s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StarWars_API_Test_canGetName - 2017.09.25 at 13h 46m 35s.xml">
-      <configuration name="StarWars_API_Test.canGetName" configurationId="JUnit" />
+    <history-entry file="StarWarsGroovyAPITest_getLukeFilms - 2017.09.26 at 19h 34m 34s.xml">
+      <configuration name="StarWarsGroovyAPITest.getLukeFilms" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1374" y="304" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -789,13 +783,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46450305" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3529412" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09443631" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3694362" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2984375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4194729" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -833,6 +827,86 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StarWarsGroovyAPITest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StarWarsGroovyAPITest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
           <folding />
@@ -843,10 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,16 +924,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPath.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPathTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -880,10 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,10 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,16 +1030,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/guitests/CukeRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/guitests/CukeRunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/guitests/AbstractDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
@@ -985,60 +1044,145 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/restassured/StarWarsAPITestJsonPath.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPathTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/guitests/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding>
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#988#989#0" expanded="false" />
+            <element signature="e#619#620#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/MatcherAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StarWarsGroovyAPITest#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/restassured/StarWarsAPITestJsonPath.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/guitests/AbstractDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWars_API_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsAPITestJsonPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restassured/StarWarsGroovyAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StarWars</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
