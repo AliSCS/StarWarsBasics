@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="restassured.StarWars_API_Test" time="2.796" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="restassured.StarWarsGroovyAPITest" time="0.668" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2016.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,8 +63,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="restassured.StarWars_API_Test" name="canGetMass" time="0.984"/>
-  <testcase classname="restassured.StarWars_API_Test" name="canGetName" time="0.526"/>
-  <testcase classname="restassured.StarWars_API_Test" name="anotherGetName" time="0.743"/>
-  <testcase classname="restassured.StarWars_API_Test" name="canGetFilms" time="0.533"/>
+  <testcase classname="restassured.StarWarsGroovyAPITest" name="getLukeFilms" time="0.039"/>
 </testsuite>

@@ -13,7 +13,7 @@ import io.restassured.RestAssured;
 /**
  * Created by Ali Al-Marsumi Local on 24/09/2017.
  */
-public class StarWarsAPITestJsonPath {
+public class StarWarsAPITestJsonPathTest {
 
 
     Response res = get("https://swapi.co/api/people/");
