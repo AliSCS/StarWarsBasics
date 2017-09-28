@@ -16,10 +16,10 @@ public class AbstractDriver {
     protected WebDriver getDriver(){
         if(driver == null){
 //            System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Google\\chromedriver\\chromedriver.exe");
-            driver = new ChromeDriver();
+//            driver = new ChromeDriver();
 //            driver = new HtmlUnitDriver();
-//            System.setProperty("webdriver.gecko.driver","C:\\Selenium\\selenium3\\Drivers\\geckodriver-v0.19.0-win64\\geckodriver.exe");
-//            driver = new FirefoxDriver();
+            System.setProperty("webdriver.gecko.driver","C:\\Selenium\\selenium3\\Drivers\\geckodriver-v0.19.0-win64\\geckodriver.exe");
+            driver = new FirefoxDriver();
         }
         return driver;
     }
