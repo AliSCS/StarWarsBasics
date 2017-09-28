@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: guitests.CukeRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 3, Skipped: 3, Time elapsed: 42.731 sec <<< FAILURE!
-Given I navigate to the website(Scenario: dummy scenario)  Time elapsed: 0.008 sec  <<< ERROR!
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 3, Time elapsed: 32.922 sec <<< FAILURE!
+Given I navigate to the website(Scenario: dummy scenario)  Time elapsed: 0.015 sec  <<< ERROR!
 cucumber.runtime.CucumberException: Failed to instantiate class guitests.SimpleTest
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
@@ -50,23 +50,22 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
 	... 38 more
-Caused by: org.openqa.selenium.WebDriverException: connection reset
+Caused by: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'PERSONAL', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
 Driver info: driver.version: AbstractDriver
 remote stacktrace: stack backtrace:
    0:           0x4821c4 - <no info>
    1:           0x482933 - <no info>
-   2:           0x47a13a - <no info>
-   3:           0x47abb0 - <no info>
-   4:           0x44bb74 - <no info>
-   5:           0x43026a - <no info>
-   6:           0x40ba4e - <no info>
-   7:           0x4119b9 - <no info>
-   8:           0x6d2c89 - <no info>
-   9:           0x426006 - <no info>
-  10:           0x6cd490 - <no info>
-  11:     0x7ffd92df13d2 - BaseThreadInitThunk
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffd92df13d2 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -99,7 +98,7 @@ remote stacktrace: stack backtrace:
 	at guitests.SimpleTest.<init>(SimpleTest.java:14)
 	... 43 more
 
-Scenario: dummy scenario  Time elapsed: 0.013 sec  <<< ERROR!
+Scenario: dummy scenario  Time elapsed: 0.021 sec  <<< ERROR!
 cucumber.runtime.CucumberException: Failed to instantiate class guitests.SimpleTest
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
@@ -147,23 +146,22 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
 	... 38 more
-Caused by: org.openqa.selenium.WebDriverException: connection reset
+Caused by: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'PERSONAL', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_45'
 Driver info: driver.version: AbstractDriver
 remote stacktrace: stack backtrace:
    0:           0x4821c4 - <no info>
    1:           0x482933 - <no info>
-   2:           0x47a13a - <no info>
-   3:           0x47abb0 - <no info>
-   4:           0x44bb74 - <no info>
-   5:           0x43026a - <no info>
-   6:           0x40ba4e - <no info>
-   7:           0x4119b9 - <no info>
-   8:           0x6d2c89 - <no info>
-   9:           0x426006 - <no info>
-  10:           0x6cd490 - <no info>
-  11:     0x7ffd92df13d2 - BaseThreadInitThunk
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffd92df13d2 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -196,7 +194,7 @@ remote stacktrace: stack backtrace:
 	at guitests.SimpleTest.<init>(SimpleTest.java:14)
 	... 43 more
 
-Scenario: dummy scenario  Time elapsed: 15.455 sec  <<< ERROR!
+Scenario: dummy scenario  Time elapsed: 15.445 sec  <<< ERROR!
 cucumber.runtime.CucumberException: Failed to instantiate class guitests.SimpleTest
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)

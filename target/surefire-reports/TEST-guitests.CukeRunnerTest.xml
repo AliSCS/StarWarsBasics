@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="guitests.CukeRunnerTest" time="15.515" errors="3" skipped="3">
+<testsuite tests="6" failures="0" name="guitests.CukeRunnerTest" time="15.556" errors="3" skipped="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: dummy scenario" name="Given I navigate to the website" time="0.008">
+  <testcase classname="Scenario: dummy scenario" name="Given I navigate to the website" time="0.015">
     <error message="Failed to instantiate class guitests.SimpleTest" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class guitests.SimpleTest
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
@@ -109,23 +109,22 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
 	... 38 more
-Caused by: org.openqa.selenium.WebDriverException: connection reset
+Caused by: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
 System info: host: &apos;PERSONAL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: driver.version: AbstractDriver
 remote stacktrace: stack backtrace:
    0:           0x4821c4 - &lt;no info&gt;
    1:           0x482933 - &lt;no info&gt;
-   2:           0x47a13a - &lt;no info&gt;
-   3:           0x47abb0 - &lt;no info&gt;
-   4:           0x44bb74 - &lt;no info&gt;
-   5:           0x43026a - &lt;no info&gt;
-   6:           0x40ba4e - &lt;no info&gt;
-   7:           0x4119b9 - &lt;no info&gt;
-   8:           0x6d2c89 - &lt;no info&gt;
-   9:           0x426006 - &lt;no info&gt;
-  10:           0x6cd490 - &lt;no info&gt;
-  11:     0x7ffd92df13d2 - BaseThreadInitThunk
+   2:           0x445159 - &lt;no info&gt;
+   3:           0x44c838 - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7ffd92df13d2 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -160,19 +159,24 @@ remote stacktrace: stack backtrace:
 </error>
     <system-out>Feature: dummy feature
 </system-out>
-    <system-err>1506631527762	geckodriver	INFO	geckodriver 0.19.0
-1506631527772	geckodriver	INFO	Listening on 127.0.0.1:21815
-1506631528839	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.xuPLbD9yG3dx&quot;
-1506631529359	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1506631530432	Marionette	INFO	Enabled via --marionette
+    <system-err>1506631777421	geckodriver	INFO	geckodriver 0.19.0
+1506631777433	geckodriver	INFO	Listening on 127.0.0.1:21113
+1506631778179	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.MRPF2fGZ81Xt&quot;
+1506631778591	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506631779591	Marionette	INFO	Enabled via --marionette
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x44001E,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x44001E,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+###!!! [Parent][MessageChannel] Error: (msgtype=0x440001,name=PContent::Msg_PBrowserConstructor) Channel error: cannot send/recv
 
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x44001E,name=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+###!!! [Parent][MessageChannel] Error: (msgtype=0x440001,name=PContent::Msg_PBrowserConstructor) Channel error: cannot send/recv
+
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 370: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIScriptSecurityManager.getLoadContextCodebasePrincipal]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x440001,name=PContent::Msg_PBrowserConstructor) Channel error: cannot send/recv
+
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 243: TypeError: frameLoader.tabParent is null
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x440001,name=PContent::Msg_PBrowserConstructor) Channel error: cannot send/recv
 
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x28008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
@@ -181,18 +185,24 @@ remote stacktrace: stack backtrace:
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x280080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
 
 JavaScript error: resource:///modules/ContentCrashHandlers.jsm, line 135: TypeError: WeakMap key must be an object, got undefined
+JavaScript error: chrome://global/content/bindings/remote-browser.xml, line 291: TypeError: tabParent is null
+JavaScript error: resource:///modules/BrowserUsageTelemetry.jsm, line 334: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise&lt;/transactionPromise&lt;@resource://gre/modules/Sqlite.jsm:618:19
+observe@resource://gre/modules/AsyncShutdown.jsm:531:9
+addBlocker/moduleBlocker/&lt;@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js:155:15
+Promise@resource://gre/modules/Promise.jsm -&gt; resource://gre/modules/Promise-backend.js:390:5
+moduleBlocker@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js:151:29
+trigger@resource://gre/modules/AsyncShutdown.jsm:700:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:847:7
+wait@resource://gre/modules/AsyncShutdown.jsm:831:28
+observe@resource://gre/modules/AsyncShutdown.jsm:514:17
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x28008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x280080,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
-
-1506631541257	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
-JavaScript error: chrome://marionette/content/server.js, line 338: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.asyncListen]
-JavaScript error: chrome://marionette/content/server.js, line 338: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.asyncListen]
 </system-err>
   </testcase>
-  <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="0.013">
+  <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="0.021">
     <error message="Failed to instantiate class guitests.SimpleTest" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class guitests.SimpleTest
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
@@ -240,23 +250,22 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
 	... 38 more
-Caused by: org.openqa.selenium.WebDriverException: connection reset
+Caused by: org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
 Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
 System info: host: &apos;PERSONAL&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
 Driver info: driver.version: AbstractDriver
 remote stacktrace: stack backtrace:
    0:           0x4821c4 - &lt;no info&gt;
    1:           0x482933 - &lt;no info&gt;
-   2:           0x47a13a - &lt;no info&gt;
-   3:           0x47abb0 - &lt;no info&gt;
-   4:           0x44bb74 - &lt;no info&gt;
-   5:           0x43026a - &lt;no info&gt;
-   6:           0x40ba4e - &lt;no info&gt;
-   7:           0x4119b9 - &lt;no info&gt;
-   8:           0x6d2c89 - &lt;no info&gt;
-   9:           0x426006 - &lt;no info&gt;
-  10:           0x6cd490 - &lt;no info&gt;
-  11:     0x7ffd92df13d2 - BaseThreadInitThunk
+   2:           0x445159 - &lt;no info&gt;
+   3:           0x44c838 - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7ffd92df13d2 - BaseThreadInitThunk
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -290,16 +299,16 @@ remote stacktrace: stack backtrace:
 	... 43 more
 </error>
   </testcase>
-  <testcase classname="Scenario: dummy scenario" name="When I populate the search criteria" time="0.013">
+  <testcase classname="Scenario: dummy scenario" name="When I populate the search criteria" time="0.024">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: dummy scenario" name="And submit the search" time="0.013">
+  <testcase classname="Scenario: dummy scenario" name="And submit the search" time="0.025">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: dummy scenario" name="Then I am on the result" time="0.013">
+  <testcase classname="Scenario: dummy scenario" name="Then I am on the result" time="0.026">
     <skipped/>
   </testcase>
-  <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="15.455">
+  <testcase classname="Scenario: dummy scenario" name="Scenario: dummy scenario" time="15.445">
     <error message="Failed to instantiate class guitests.SimpleTest" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class guitests.SimpleTest
 	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
 	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
@@ -394,11 +403,11 @@ remote stacktrace: stack backtrace:
 	at guitests.SimpleTest.&lt;init&gt;(SimpleTest.java:14)
 	... 42 more
 </error>
-    <system-err>1506631552548	geckodriver	INFO	geckodriver 0.19.0
-1506631552551	geckodriver	INFO	Listening on 127.0.0.1:31860
-1506631553094	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.lXyb2SSvnlLx&quot;
-1506631553451	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
-1506631554393	Marionette	INFO	Enabled via --marionette
+    <system-err>1506631793167	geckodriver	INFO	geckodriver 0.19.0
+1506631793177	geckodriver	INFO	Listening on 127.0.0.1:12048
+1506631793740	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\WINDOWS\\TEMP\\rust_mozprofile.0HvYE5c43JZa&quot;
+1506631794084	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1506631795111	Marionette	INFO	Enabled via --marionette
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x28008C,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
 
