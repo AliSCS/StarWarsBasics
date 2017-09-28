@@ -1,0 +1,6 @@
+restassured\StarWars_API_Test.class
+guitests\AbstractDriver.class
+restassured\StarWarsGroovyAPITest.class
+guitests\CukeRunnerTest.class
+guitests\SimpleTest.class
+restassured\StarWarsAPITestJsonPathTest.class
